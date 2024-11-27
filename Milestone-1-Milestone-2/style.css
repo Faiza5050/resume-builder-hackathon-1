@@ -1,0 +1,416 @@
+* {
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+    display: block;
+    border: 15px solid;
+    width: 60%;
+    padding: 5px 10px 5px 10px;
+}
+.main-container {
+    height: fit-content;
+    background-color: rgba(0, 0, 0.796);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    padding: 1%;
+}
+.main {    
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    border-radius: 10px;
+}
+.one {
+    background-color: rgb(148, 138, 138);
+    width: 30%;
+    border-radius: 50px;
+    border-top: 5px solid rgba(0, 0, 0, 0.953);
+}
+.main .trans {
+    background-color: rgb(116, 108, 108);
+    border-radius: 15px;
+}
+.profile-picture {
+    height: fit-content;
+    width: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 100%;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.im {
+    box-shadow: rgb(255, 255, 255) 1px 1px 40px;
+    height: 180px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border-width: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-image: initial;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin: 0px 10px 20px 20px;
+}
+.headers {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.peras {
+    margin: 15px;
+    margin-top: 5px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.abo p {
+    padding-top: 10px;
+    line-height: 2px;
+}
+.leng-li {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.edu p {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.abo, .cnt, .trans {
+    text-align: center;
+    margin-top: 10px;
+    height: fit-content;
+    width: 50%;
+    border-top: 5px solid black;
+}
+i, a, img {
+    height: 25px;
+}
+.phone {
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+.address {
+    margin-bottom: -20px;
+    margin-left: 5px;
+    font-size: 5px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    line-height: 35px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.two {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 60%;
+}
+.div-two-name-head {
+    color: rgb(62, 62, 88);
+    font-weight: bolder;
+    font-size: 60px;
+}
+.div-two-name-head:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 2s;
+    width: 60%;
+    margin-left: 60px;
+}
+.matric {
+    margin-top: 8px;
+    margin-left: 80px;
+    font-size: 18px;
+    border-left: 5px solid rgb(0, 0, 0);
+    padding: 5px 100px 5px 0px;
+}
+#button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+.education, #skils, .work-exp {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: fantasy;
+    background-color: rgb(116, 108, 108);
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 30px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.6s;
+}
+.sl {
+    display: flex;
+    font-size: 20px;
+    list-style-type: square;
+    margin-bottom: -1px;
+    padding-top: 20px;
+}
+.sl ul {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: square;
+    margin-block-end: 5em;
+    margin-inline-start: 20px;
+    padding-inline-start: 10px;
+    unicode-bidi: isolate;
+}
+.wo-ex {
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#toggle {
+    display: block;
+    width: 40%;
+    background-color: rgb(91, 134, 170);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 12px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+}
+#toggle:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.6s;
+}
+.list ul {
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    list-style-type: square;
+}
+#c {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.social {
+    font-size: 30px;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media (max-width: 320px) {
+    html {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 50px;
+    }
+
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 1.67em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+
+    .main-container {
+        padding: 5%;
+    }
+
+    .one {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .div-two-name-head {
+        font-size: 24px;
+    }
+
+    .peras, .abo p {
+        font-size: 14px;
+    }
+
+    .education, #skils, .work-exp {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .matric {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .sl {
+        font-size: 30px;
+        gap: 10px;
+        justify-items: left;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    .social {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    #toggle {
+        width: 90%;
+        font-size: 1.1em;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #c {
+        margin-left: 0;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .main {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .one {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .profile-picture {
+        width: 100%;
+        height: 20px;
+    }
+
+    .headers h1 {
+        font-size: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .peras, .abo p {
+        font-size: 16px;
+    }
+
+    .abo, .cnt, .trans {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .div-two-name-head {
+        font-size: 30px;
+    }
+
+    .matric {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .education, #skils, .work-exp {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .social {
+        margin-left: 0;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #toggle {
+        width: 80%;
+        font-size: 1.2em;
+        margin: 0 auto;
+    }
+
+    .list ul {
+        font-size: 40px;
+        gap: 10px;
+        list-style: none;
+        flex-direction: column;
+    }
+}

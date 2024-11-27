@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Static Interactive Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <script src="main.ts"></script>
+    </head>
+    <body>
+        <div class="main-containar">
+            <div class="main">
+                <div class="two">
+                    <h1 class="div-two-head1">~Static Interactive Resume~</h1>
+                    <h1 class="div-two-name-head">Faiza Kanwal</h1>
+                </div>
+                <div class="one">
+                    <div class="profile-picture"></div>
+                    <div class="proo">
+                        <img class="im" src="./image/Photo.png" alt="">
+                    </div>
+            </div>
+
+            <div class="trans">
+                <button class="education" type="button"> About Me </button>
+                <h3 class="peras">I'm Student at Governor House (I.T) Initiative <br> Future Cloud Application Generative AI Engineer</h3>
+            </div>
+
+            <div class="trans">
+                <button class="education" type="button"> Contact </button>
+                <i class="fa-solid fa-phone-volume"><a href="https://wa.me/+923478351791" target="_blank"><img class="phone"> +923478351791</a></i><br>
+                <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/faiza-kanwal-04a65b2b3/" target="_blank"><img class="phone"> faiza-kanwal </a></i><br>
+                <i class="fa-solid fa-envelope"><a href="https://faizakanwal5050@gmail.com" target="_blank"><img class="phone"> faizakanwal@gmail.com </a></i><br>
+                <i class="fa-solid fa-location-dot"><a href="#"><img class="address"> G-Area Malir Colony Karachi </a></i>
+            </div>
+            
+            <div class="trans">
+                <button class="education" type="button">Languages</button>
+                <p class="peras">
+                    <li class="leng-li"> English </li>
+                    <li class="leng-li"> Urdu --</li>
+                </p>
+            </div>
+
+            <div class="trans">
+                <button class="education" type="button">Education</button>
+                <p class="matric">INTERMEDIATE: <br> Liaquat Government College <br> Karachi</p>
+                <p class="matric">MATRICULATION: <br> Great Folks' Public Secondary School <br> Karachi</p>
+            </div>
+
+            <div class="trans">
+                
+                <button id="skils" type="button">Skills</button>
+                <div id="skils1">
+                    <ul class="sl">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>TypeScript</li>
+                    </ul>
+                    <div class="sl">
+                        <li>JavaScript</li>
+                        <li>Next.Js</li>
+                        <li>BootStrap</li>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trans">
+                <button class="work-exp" type="button" onClick="toggleWorkExperience()">Work Experience</button>
+                <div class="work-experience-content">
+                    <p class="wo-ex">Governor Sindh IT Initiative Center (GIAIC), February 2024. <br> Independently designed and developed responsive user interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and a smooth user experience.<br>Seeking an opportunity as a fresh candidate to start my professional career...</p>
+                </div>
+            </div>
+            <div class="work-experience-content">
+                <button id="toggle" onClick="toggle()">Show / Hide Skills</button>
+            </div>
+            <h3 id="c"> © 2024 Faiza Kanwal </h3>
+            <ul class="social">
+                <a href="https://www.facebook.com/faiza-kanwal"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/faiza-kanwal-04a65b2b3/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/kanwal1203?igsh=MWt4dGRwd3o3NnBmYQ=="><i class="fa-brands fa-square-instagram"></i></a>
+            </ul>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
