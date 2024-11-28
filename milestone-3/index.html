@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <script src="app.ts" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-resume">
+            <h1><u> ~ Dynamic Resume Builder ~ </u></h1>
+        </div>
+        <h4><u>Create Your Resume</u></h4>
+
+        <form id="resumeForm">
+            <fieldset>
+                <legend> Personal Information </legend>
+                <div>
+                    <label for="name">Name:<br></label>
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone No:</label>
+                    <input type="text" id="phone" placeholder="Enter Your Phone Number" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Education </legend>
+                <div>
+                    <label for="education">Degree:</label><br>
+                    <textarea id="education" placeholder="Enter Your Education" rows="4" required></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Experience </legend>
+                <div>
+                    <label for="experience">Work Experience:</label><br>
+                    <textarea id="experience" placeholder="Enter Your Experiences" rows="4" required></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Skills </legend>
+                <div>
+                    <label for="skils">Skills:</label><br>
+                    <textarea id="skills" placeholder="Separate skills by commas" rows="4" required></textarea>
+                </div>
+            </fieldset>
+        
+            <button type="button" id="generateResume">Generate Resume</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
