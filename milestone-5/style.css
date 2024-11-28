@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    border: 25px double;
+    width: 50%;
+    margin-left: 300px;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    border-radius: 10px;
+    background-color: rgb(221, 204, 182);
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 16px;
+    color: #444;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+fieldset {
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 5px;
+}
+legend {
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5px;
+    padding: 10px 3px 10px 3px;
+    background-color: #918583;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cf9898;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s ease;
+    padding-left: 10px;
+    width: 100%;
+    background-color: rgb(209, 200, 200);
+}
+
+#education {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cf9898;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s ease;
+    padding-left: 10px;
+    width: 100%;
+    background-color: rgb(209, 200, 200);
+}
+
+#experience {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cf9898;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s ease;
+    padding-left: 10px;
+    width: 100%;
+    background-color: rgb(209, 200, 200);
+}
+
+#skills {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cf9898;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s ease;
+    padding-left: 10px;
+    width: 100%;
+    background-color: rgb(209, 200, 200);
+}
+
+input:focus {
+    border: 1px solid #918583;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #ff6347;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #e53e2f;
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    input, textarea {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #downloadPdfBtn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    legend {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .resume-section {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    input, textarea {
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #downloadPdfBtn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .resume-section {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding-left: 12px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #downloadPdfBtn {
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    legend {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .resume-section {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin-left: 300px;
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .resume-section {
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #downloadPdfBtn {
+        font-size: 20px;
+        width: auto;
+    }
+
+    legend {
+        font-size: 25px;
+    }
+}
